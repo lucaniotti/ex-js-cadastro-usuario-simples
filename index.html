@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de usuário</title>
+</head>
+<body>
+    <h1>Cadastro de usuário</h1>
+
+    <div class="formulario">
+        <label for="primeiroNome">Primeiro Nome:</label>
+        <input type="text" id="primeiroNome" placeholder="Digite o primeiro nome">
+    </div>
+
+    <div class="formulario">
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" id="sobrenome" placeholder="Digite o sobrenome">
+    </div>
+
+    <div class="formulario">
+        <label for="campoEstudo">Campo de Estudo:</label>
+        <input type="text" id="campoEstudo" placeholder="Digite o campo de estudo">
+    </div>
+
+    <div class="formulario">
+        <label for="anoNascimento">Ano de Nascimento:</label>
+        <input type="number" id="anoNascimento" placeholder="Digite o ano de nascimento">
+    </div>
+
+    <button onclick="saveRecruitInfo()">Salvar Informações</button>
+
+    <div class="resultado" id="resultado">
+        <h2>Informações Coletadas</h2>
+        <p id="infoNome"></p>
+        <p id="infoCampoEstudo"></p>
+        <p id="infoIdade"></p>
+    </div>
+
+    <script src="/Exercício 1/Cadastro de usuário/index.js"></script>
+</body>
+</html>
