@@ -1,5 +1,9 @@
-# exerc-cio-js-cadastro-usuario-simples
-# exerc-cio-js-cadastro-usuario-simples
-# exerc-cio-js-cadastro-usuario-simples
-# exerc-cio-js-cadastro-usuario-simples
-# ex-js-cadastro-usuario-simples
+<h1>Cadastro de Recrutas</h1>
+
+Escreva um programa em javascript que permita salvar informações de um recruta. As informações a serem salvas são:
+o primeiro nome
+o sobrenome
+o campo de estudo
+o ano de nascimento
+<br><br>
+Depois o programa deve exibir o nome completo do recruta, seu campo de estudo e sua idade (apenas baseada no ano de nascimento).
